@@ -1,0 +1,12 @@
+[
+    // Delete a line with cmd+delete
+    { "keys": ["ctrl+backspace"], "command": "run_macro_file", "args": {
+        "file": "Packages/Default/Delete Line.sublime-macro"
+    }},
+    { "keys": ["ctrl+shift+b"], "command": "toggle_side_bar" },
+
+    {"command": "anaconda_goto", "keys": ["ctrl+space"]},
+    {"command": "anaconda_find_usages", "keys": ["ctrl+alt+space"]},
+    {"command": "anaconda_auto_format", "keys": ["super+r"]},
+    {"command": "anaconda_doc", "keys": ["ctrl+shift+d"]},
+]

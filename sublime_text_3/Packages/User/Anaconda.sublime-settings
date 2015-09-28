@@ -1,0 +1,7 @@
+{
+    "anaconda_linting": true,
+    "complete_parameters": true,
+    "anaconda_linter_mark_style": "none",
+    "anaconda_linter_underlines": true,
+    "anaconda_linter_show_errors_on_save": false,
+}
