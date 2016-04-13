@@ -5,12 +5,8 @@
     }},
     { "keys": ["ctrl+shift+b"], "command": "toggle_side_bar" },
 
-    {"command": "anaconda_goto", "keys": ["ctrl+space"]},
-    {"command": "anaconda_find_usages", "keys": ["ctrl+alt+space"]},
-    {"command": "anaconda_auto_format", "keys": ["super+r"]},
-    {"command": "anaconda_doc", "keys": ["ctrl+shift+d"]},
-
     // Expand Group package settings
-    { "keys": ["alt+,"],  "command": "go_to_group", "args": { "direction": "left" } },
-    { "keys": ["alt+."], "command": "go_to_group", "args": { "direction": "right" } },
+
+    { "keys": ["alt+left"], "command": "focus_group", "args": { "group": 0 } },
+    { "keys": ["alt+right"], "command": "focus_group", "args": { "group": 1 } },
 ]
