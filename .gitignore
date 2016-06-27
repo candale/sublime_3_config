@@ -3,3 +3,6 @@
 
 # but
 !User/*
+
+# Also ignore cache
+*/*.cache
