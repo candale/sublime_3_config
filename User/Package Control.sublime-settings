@@ -1,0 +1,24 @@
+{
+	"bootstrapped": true,
+	"in_process_packages":
+	[
+	],
+	"installed_packages":
+	[
+		"All Autocomplete",
+		"Anaconda",
+		"CTags",
+		"EasyMotion",
+		"Git",
+		"GitGutter",
+		"Github Tools",
+		"Jedi - Python autocompletion",
+		"Material Theme",
+		"Package Control",
+		"SideBarEnhancements",
+		"SyncedSideBar",
+		"Terminal",
+		"Tomorrow Color Schemes",
+		"VIM Navigation"
+	]
+}
