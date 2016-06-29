@@ -3,6 +3,7 @@
 
 # but
 !User/*
+!README.md
 
 # Also ignore cache
 */*.cache
