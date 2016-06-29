@@ -9,7 +9,7 @@
 	],
 	"bold_folder_labels": true,
 	"caret_style": "solid",
-	"color_scheme": "Packages/Color Scheme - Default/Monokai.tmTheme",
+	"color_scheme": "Packages/Material Theme/schemes/Material-Theme-Darker.tmTheme",
 	"detect_indentation": false,
 	"draw_minimap_border": true,
 	"draw_white_space": "selection",
