@@ -9,10 +9,10 @@
 		"Anaconda",
 		"CTags",
 		"EasyMotion",
+		"FindKeyConflicts",
 		"Git",
 		"GitGutter",
 		"Github Tools",
-		"Jedi - Python autocompletion",
 		"MarkdownEditing",
 		"Material Theme",
 		"Package Control",
@@ -20,7 +20,6 @@
 		"SyncedSideBar",
 		"Terminal",
 		"Tomorrow Color Schemes",
-		"VIM Navigation",
-		"YAML Nav"
+		"VIM Navigation"
 	]
 }

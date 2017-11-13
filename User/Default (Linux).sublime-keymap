@@ -9,9 +9,11 @@
 
     { "keys": ["alt+left"], "command": "focus_group", "args": { "group": 0 } },
     { "keys": ["alt+right"], "command": "focus_group", "args": { "group": 1 } },
-    // {
-    //     "command": "anaconda_doc", "keys": ["ctrl+space+d"], "context": [
-    //         {"key": "selector", "operator": "equal", "operand": "source.python"}
-    //     ]
-    // },
+
+    {
+        "command": "anaconda_goto", "keys": ["ctrl+space"], "context": [
+            {"key": "selector", "operator": "equal", "operand": "source.python"}
+        ]
+    }
+
 ]

@@ -1,18 +1,21 @@
 {
-    "disable_anaconda_completion": true,
+    "disable_anaconda_completion": false,
 
     "anaconda_linting": true,
     "complete_parameters": true,
     "complete_all_parameters": false,
+
     "anaconda_linter_mark_style": "none",
     "anaconda_linter_underlines": true,
     "anaconda_linter_show_errors_on_save": false,
     "anaconda_gutter_theme": "basic",
-    "disable_anaconda_completion": true,
-    "validate_imports": true,
+    "validate_imports": false,
 
     "pep257": false,
     "pep8": true,
 
     "anaconda_debug": false,
+
+    "suppress_word_completions": false,
+    "suppress_explicit_completions": false,
 }
