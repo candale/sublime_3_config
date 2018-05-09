@@ -14,6 +14,11 @@
         "command": "anaconda_goto", "keys": ["ctrl+space"], "context": [
             {"key": "selector", "operator": "equal", "operand": "source.python"}
         ]
-    }
+    },
+    {
+        "command": "anaconda_find_usages", "keys": ["ctrl+alt+space"], "context": [
+            {"key": "selector", "operator": "equal", "operand": "source.python"}
+        ]
+    },
 
 ]
