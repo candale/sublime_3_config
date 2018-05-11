@@ -7,8 +7,12 @@
 
     // Expand Group package settings
 
-    { "keys": ["alt+left"], "command": "focus_group", "args": { "group": 0 } },
-    { "keys": ["alt+right"], "command": "focus_group", "args": { "group": 1 } },
+    { "keys": ["alt+1"], "command": "focus_group", "args": { "group": 0 } },
+    { "keys": ["alt+2"], "command": "focus_group", "args": { "group": 1 } },
+    { "keys": ["alt+3"], "command": "focus_group", "args": { "group": 2 } },
+
+    { "keys": ["alt+k"], "command": "next_view" },
+    { "keys": ["alt+j"], "command": "prev_view" },
 
     {
         "command": "anaconda_goto", "keys": ["ctrl+space"], "context": [
