@@ -14,6 +14,10 @@
     { "keys": ["alt+k"], "command": "next_view" },
     { "keys": ["alt+j"], "command": "prev_view" },
 
+    { "keys": ["alt+u"], "command": "scroll_lines", "args": {"amount": 5.0 } },
+    { "keys": ["alt+d"], "command": "scroll_lines", "args": {"amount": -5.0 } },
+
+
     {
         "command": "anaconda_goto", "keys": ["ctrl+space"], "context": [
             {"key": "selector", "operator": "equal", "operand": "source.python"}
@@ -23,6 +27,17 @@
         "command": "anaconda_find_usages", "keys": ["ctrl+alt+space"], "context": [
             {"key": "selector", "operator": "equal", "operand": "source.python"}
         ]
+    },
+
+    {
+        "keys": ["alt+;", "<character>"],
+        "command": "easy_motion",
+        "args": {"select_text": false}
+    },
+    {
+        "keys": ["alt+;", "enter"],
+        "command": "easy_motion",
+        "args": {"select_text": false, "character": "enter"}
     },
 
 ]
