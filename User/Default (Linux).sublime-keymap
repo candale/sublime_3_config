@@ -39,5 +39,9 @@
         "command": "easy_motion",
         "args": {"select_text": false, "character": "enter"}
     },
-
+    {
+        "command": "anaconda_doc", "keys": ["ctrl+shift+i"], "context": [
+            {"key": "selector", "operator": "equal", "operand": "source.python"}
+        ]
+    }
 ]
