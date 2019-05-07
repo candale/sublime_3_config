@@ -1,18 +1,32 @@
 {
     "disable_anaconda_completion": false,
 
-    "anaconda_linting": true,
     "complete_parameters": true,
     "complete_all_parameters": false,
 
-    "anaconda_linter_mark_style": "none",
-    "anaconda_linter_underlines": true,
-    "anaconda_linter_show_errors_on_save": false,
-    "anaconda_gutter_theme": "basic",
-    "validate_imports": false,
+    "auto_formatting": false,
 
+    "validate_imports": true,
+    "anaconda_linting": true,
+    "anaconda_linter_underlines": true,
+    "anaconda_linting_behaviour": "always",
+    "anaconda_linter_mark_style": "stippled_underline",
+    "anaconda_gutter_theme": "retina",
+    "anaconda_linter_phantoms": false,
+    "anaconda_linter_show_errors_on_save": false,
+    "anaconda_gutter_marks": true,
     "pep257": false,
-    "pep8": true,
+    "pep257_ignore":
+    [
+        "D203",
+        "D209",
+        "D100"
+    ],
+
+    "pyflakes_ignore_import_*": false,
+
+    "mypy": true,
+    "mypy_mypypath": "/home/andrei/.local/bin/mypy",
 
     "anaconda_debug": false,
 
