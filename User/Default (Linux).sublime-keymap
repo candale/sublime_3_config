@@ -23,12 +23,13 @@
             {"key": "selector", "operator": "equal", "operand": "source.python"}
         ]
     },
+    // { "keys": ["ctrl+space"], "command": "goto_definition" },
+    { "keys": ["ctrl+shift+space"], "command": "goto_reference" },
     {
         "command": "anaconda_find_usages", "keys": ["ctrl+alt+space"], "context": [
             {"key": "selector", "operator": "equal", "operand": "source.python"}
         ]
     },
-
     {
         "keys": ["alt+;", "<character>"],
         "command": "easy_motion",
@@ -40,12 +41,12 @@
         "args": {"select_text": false, "character": "enter"}
     },
     {
+        "keys": ["ctrl+shift+m"],
+        "command": "sublime_merge_open_repo"
+    },
+    {
         "command": "anaconda_doc", "keys": ["ctrl+shift+i"], "context": [
             {"key": "selector", "operator": "equal", "operand": "source.python"}
         ]
-    },
-    {
-        "keys": ["ctrl+shift+m"],
-        "command": "sublime_merge_open_repo"
     }
 ]

@@ -4,12 +4,12 @@
 	[
 		{
 			"characters": ".",
-			"selector": "source.python - string - comment - constant.numeric"
+			"selector": "source.python - string - comment - constant.numeric",
 		}
 	],
 	"bold_folder_labels": true,
 	"caret_style": "solid",
-	"color_scheme": "Packages/User/Material-Theme-Darker (SublimePythonIDE).tmTheme",
+	"color_scheme": "Packages/Tomorrow Color Schemes/Tomorrow-Night.tmTheme",
 	"detect_indentation": false,
 	"draw_minimap_border": true,
 	"draw_white_space": "selection",
@@ -34,7 +34,7 @@
 		"subpixel_antialias",
 		"no_bold"
 	],
-	"font_size": 12,
+	"font_size": 11,
 	"hide_snippets_on_completion": true,
 	"highlight_line": true,
 	"highlight_modified_tabs": true,
@@ -42,7 +42,7 @@
 	[
 		"All Autocomplete",
 		"Terminal",
-		"Vintage"
+		"Vintage",
 	],
 	"indent_guide_options":
 	[
@@ -72,5 +72,7 @@
 	"translate_tabs_to_spaces": true,
 	"trim_trailing_white_space_on_save": true,
 	"wide_caret": true,
-	"word_wrap": false
+	"word_wrap": false,
+
+    "hardware_acceleration": "opengl",
 }

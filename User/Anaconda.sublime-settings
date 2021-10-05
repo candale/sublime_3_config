@@ -1,7 +1,8 @@
 {
     "disable_anaconda_completion": false,
+    "display_signatures": true,
 
-    "complete_parameters": true,
+    "complete_parameters": false,
     "complete_all_parameters": false,
 
     "auto_formatting": false,
@@ -11,10 +12,10 @@
     "anaconda_linter_underlines": true,
     "anaconda_linting_behaviour": "always",
     "anaconda_linter_mark_style": "stippled_underline",
-    "anaconda_gutter_theme": "retina",
+    "anaconda_gutter_theme": "alpha",
     "anaconda_linter_phantoms": false,
     "anaconda_linter_show_errors_on_save": false,
-    "anaconda_gutter_marks": true,
+    "anaconda_gutter_marks": false,
     "pep257": false,
     "pep257_ignore":
     [
@@ -22,14 +23,19 @@
         "D209",
         "D100"
     ],
+    "pep8_ignore":
+    [
+        "E501",
+        "W503"
+    ],
 
     "pyflakes_ignore_import_*": false,
 
-    "mypy": true,
+    "mypy": false,
     "mypy_mypypath": "/home/andrei/.local/bin/mypy",
 
     "anaconda_debug": false,
 
-    "suppress_word_completions": false,
-    "suppress_explicit_completions": false,
+    "suppress_word_completions": true,
+    "suppress_explicit_completions": true,
 }
