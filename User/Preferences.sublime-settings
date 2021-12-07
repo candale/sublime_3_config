@@ -9,7 +9,7 @@
 	],
 	"bold_folder_labels": true,
 	"caret_style": "solid",
-	"color_scheme": "Packages/Tomorrow Color Schemes/Tomorrow-Night.tmTheme",
+	"color_scheme": "Tomorrow Night.sublime-color-scheme",
 	"detect_indentation": false,
 	"draw_minimap_border": true,
 	"draw_white_space": "selection",

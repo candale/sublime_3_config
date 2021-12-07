@@ -18,12 +18,12 @@
     { "keys": ["alt+d"], "command": "scroll_lines", "args": {"amount": -5.0 } },
 
 
-    {
-        "command": "anaconda_goto", "keys": ["ctrl+space"], "context": [
-            {"key": "selector", "operator": "equal", "operand": "source.python"}
-        ]
-    },
-    // { "keys": ["ctrl+space"], "command": "goto_definition" },
+    // {
+    //     "command": "anaconda_goto", "keys": ["ctrl+space"], "context": [
+    //         {"key": "selector", "operator": "equal", "operand": "source.python"}
+    //     ]
+    // },
+    { "keys": ["ctrl+space"], "command": "goto_definition" },
     { "keys": ["ctrl+shift+space"], "command": "goto_reference" },
     {
         "command": "anaconda_find_usages", "keys": ["ctrl+alt+space"], "context": [
