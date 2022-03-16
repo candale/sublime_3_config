@@ -34,8 +34,8 @@
     "mypy": false,
     "mypy_mypypath": "/home/andrei/.local/bin/mypy",
 
-    "anaconda_debug": false,
+    "anaconda_debug": true,
 
-    "suppress_word_completions": true,
-    "suppress_explicit_completions": true,
+    "suppress_word_completions": false,
+    "suppress_explicit_completions": false,
 }

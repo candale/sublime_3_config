@@ -21,15 +21,21 @@ class AddDatetimeNowAtEndTxtCommand(sublime_plugin.TextCommand):
             print('ERROR: wut?')
 
         datetime.utcnow().isoformat()
-        self.view.insert(edit, self.view.size(), "\n\n### -- {} --\n".format(datetime.utcnow().isoformat()))
+        self.view.insert(edit, 0, "### -- {} --\n\n\n".format(datetime.utcnow().isoformat()))
 
-        lines, columns = self.view.rowcol(self.view.size())
-        pt = self.view.text_point(lines, columns)
+        pt = self.view.text_point(1, 0)
 
         self.view.sel().clear()
         self.view.sel().add(sublime.Region(pt))
 
         self.view.show(pt)
+        markdown_sytanx = sublime.Syntax(
+            'Packages/Markdown/Markdown.sublime-syntax',
+            'Markdown',
+            False,
+            None
+        )
+        self.view.assign_syntax(markdown_sytanx)
 
 
 class AddDatetimeNowAtEndCommand(sublime_plugin.WindowCommand):

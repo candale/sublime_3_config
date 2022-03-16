@@ -11,7 +11,7 @@
 	"caret_style": "solid",
 	"color_scheme": "Tomorrow Night.sublime-color-scheme",
 	"detect_indentation": false,
-	"draw_minimap_border": true,
+	"draw_minimap_border": false,
 	"draw_white_space": "selection",
 	"ensure_newline_at_eof_on_save": true,
 	"file_exclude_patterns":
@@ -29,6 +29,7 @@
 		"assembly*"
 	],
 	"font_face": "Ubuntu Mono",
+    "auto_complete": true,
 	"font_options":
 	[
 		"subpixel_antialias",
@@ -40,10 +41,10 @@
 	"highlight_modified_tabs": true,
 	"ignored_packages":
 	[
-		"All Autocomplete",
 		"Terminal",
-		"Vintage",
+        "Vintage",
 	],
+    "relative_line_numbers": false,
 	"indent_guide_options":
 	[
 		"draw_normal",
@@ -74,5 +75,8 @@
 	"wide_caret": true,
 	"word_wrap": false,
 
-    "hardware_acceleration": "opengl",
+    "hardware_acceleration": "none",
+    "anaconda_linting": true,
+    "anaconda_linting_behaviour": "always",
+    "complete_parameters": true,
 }

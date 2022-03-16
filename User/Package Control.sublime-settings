@@ -5,7 +5,6 @@
 	],
 	"installed_packages":
 	[
-		"All Autocomplete",
 		"Anaconda",
 		"BracketHighlighter",
 		"CTags",
@@ -31,6 +30,6 @@
 		"Tomorrow Color Schemes",
 		"Tomorrow Night Italics Color Scheme",
 		"VIM Navigation",
-		"Wolf Theme"
+		"Wolf Theme",
 	],
 }
